@@ -15,7 +15,7 @@ export default function Airport() {
 
     const fetchAirports = async () => {
         try {
-            const response = await fetch('https://meetbhai.eu-4.evennode.com/api/v1/airports');
+            const response = await fetch('http://meetbhai.eu-4.evennode.com/api/v1/airports');
             const data = await response.json();
             setAirports(data.data.data);
         } catch (error) {
@@ -25,7 +25,7 @@ export default function Airport() {
 
     const handleAddAirport = async () => {
         try {
-            const response = await fetch('https://meetbhai.eu-4.evennode.com/api/v1/airport', {
+            const response = await fetch('http://meetbhai.eu-4.evennode.com/api/v1/airport', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
