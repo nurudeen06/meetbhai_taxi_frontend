@@ -1,0 +1,89 @@
+// Login
+export const IS_LOADING = "IS_LOADING";
+export const ADD_LOGIN_ERROR = "ADD_LOGIN_ERROR";
+export const ADD_LOGIN_LOADING = "ADD_LOGIN_LOADING";
+export const ADD_LOGIN_SUCCESS = "ADD_LOGIN_SUCCESS";
+export const SIGNUP_DATA = "SIGNUP_DATA";
+export const RESET_GLOBAL_STATE = "RESET_GLOBAL_STATE";
+export const LOGOUT = "LOGOUT";
+export const GET_MY_PROFILE = "GET_MY_PROFILE";
+export const SEND_OTP_DATA = "SEND_OTP_DATA";
+export const GET_ALL_USERS_DATA = "GET_ALL_USERS_DATA";
+
+// User 
+export const ADD_USER = "ADD_USER";
+export const UPDATE_USER = "UPDATE_USER";
+export const DELETE_USER = "DELETE_USER";
+export const GET_ALL_USER = "GET_ALL_USER";
+
+//User Verify 
+export const USER_VERIFY = "USER_VERIFY";
+export const USER_VERIFY_WITH_OTP = "USER_VERIFY_WITH_OTP";
+export const USER_ADD_PROPERTY_DETAILS_ID = "USER_ADD_PROPERTY_DETAILS_ID";
+
+//Rooms 
+export const GET_ALL_ROOMS = "GET_ALL_ROOMS";
+export const GET_SINGLE_ROOMS = "GET_SINGLE_ROOMS";
+export const ADD_ROOM = "ADD_ROOM";
+export const UPDATE_ROOM = "UPDATE_ROOM";
+export const DELETE_ROOM="DELETE_ROOM";
+
+// Image
+export const ADD_GALLERY_DETAIL = "ADD_GALLERY_DETAIL";
+export const DELETE_IMAGE = " DELETE_IMAGE";
+export const DELETE_VIDEO = "DELETE_VIDEO";
+export const MULTIPLE_UPLOAD_IMAGES = "MULTIPLE_UPLOAD_IMAGES";
+
+//Rate Plan
+export const GET_ALL_RATE_PLAN = "GET_ALL_RATE_PLAN";
+export const ADD_RATE_PLAN = "ADD_RATE_PLAN";
+export const UPDATE_RATE_PLAN = "UPDATE_RATE_PLAN";
+export const DELETE_RATE_PLAN = "DELETE_RATE_PLAN";
+export const STATUS_RATE_PLAN="STATUS_RATE_PLAN";
+
+// Inventory
+export const GET_ALL_PRICE_DATE = "GET_ALL_PRICE_DATE";
+export const ADD_ROOM_PRICE = "ADD_ROOM_PRICE";
+
+// Aminities
+export const ADD_AMINITIES = "ADD_AMINITIES";
+
+//TESTIMONIALS
+export const GET_ALL_TESTIMONIALS = "GET_ALL_TESTIMONIALS";
+export const ADD_TESTIMONIAL = "ADD_TESTIMONIAL";
+export const UPDATE_TESTIMONIAL = "UPDATE_TESTIMONIAL";
+export const DELETE_TESTIMONIAL = "DELETE_TESTIMONIAL";
+
+//BOOKING
+export const ADD_BOOKING = "ADD_BOOKING";
+export const GET_ALL_BOOKING = "GET_ALL_BOOKING";
+
+// DisVoucher
+export const GET_ALL_DIS_VOUCHER = "GET_ALL_DIS_VOUCHER";
+export const ADD_DIS_VOUCHER = "ADD_DIS_VOUCHER";
+export const UPDATE_DIS_VOUCHER = "UPDATE_DIS_VOUCHER";
+export const DELETE_DIS_VOUCHER = "DELETE_DIS_VOUCHER";
+
+//FAQ
+export const GET_ALL_FAQS = "GET_ALL_FAQS";
+export const ADD_FAQ = "ADD_FAQ";
+export const UPDATE_FAQ = "UPDATE_FAQ";
+export const DELETE_FAQ = "DELETE_FAQ";
+
+// Setting
+export const GET_ALL_SETTING = "GET_ALL_SETTING";
+export const ADD_SETTING = "ADD_SETTING";
+
+//DashBoard
+export const GET_DASHBOARD_DATA="GET_DASHBOARD_DATA";
+
+//CouponCode
+export const GET_ALL_COUPONCODE="GET_ALL_COUPONCODE";
+export const ADD_COUPONCODE="ADD_COUPONCODE";
+export const EDIT_COUPONCODE="EDIT_COUPONCODE";
+export const DELETE_COUPONCODE="DELETE_COUPONCODE";
+export const CHECK_COUPONCODE="CHECK_COUPONCODE";
+
+//USER_PROFILE
+export const ADD_USER_PROFILE="ADD_USER_PROFILE";
+export const GET_USER_BOOK_DETAILS ="GET_USER_BOOK_DETAILS";
